@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def favourite_restaurants(request):
+    return render(request, "pizza.html")
